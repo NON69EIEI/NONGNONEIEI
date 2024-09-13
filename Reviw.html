@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รีวิว</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/promax.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    
+    <!-- หัวของเว็บไซต์ -->
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 text-white">หน้าเเรก</a></li>
+              <li><a href="Product .html" class="nav-link px-2 text-white">รายการสินค้า</a></li>
+              <li><a href="Reviw.html" class="nav-link px-2 text-red">รีวิวสินค้า</a></li>
+             
+            </ul>
+
+            <div class="text-end">
+              <button type="button" class="btn btn-warning">ลงทะเบียน</button>
+              <button type="button" class="btn btn-warning">สมัครสมาชิก</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4" > Review</span>
+          
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search"><br>
+          <input type="search" class="form-control" placeholder="ค้นหาเกม" aria-label="Search">
+        </form>
+      </div>
+      <br>
+
+              <!-- ส่วนเเรก -->
+               
+
+      <body>
+          <symbol id="check2" viewBox="0 0 16 16">
+            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+          </symbol>
+          <symbol id="circle-half" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+          </symbol>
+          <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+            <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+            <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+          </symbol>
+          <symbol id="sun-fill" viewBox="0 0 16 16">
+            <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+          </symbol>
+        </svg>
+    
+        <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+          <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
+            <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light" aria-pressed="true">
+                <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+                Light
+                <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+                Dark
+                <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+                <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
+                Auto
+                <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+    
+        
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="aperture" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10"></circle>
+        <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path>
+      </symbol>
+      <symbol id="cart" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+      </symbol>
+      <symbol id="chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+      </symbol>
+    </svg>
+    
+    <div class="container">
+      <header class="border-bottom lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="link-secondary" href="#">รายการข้อมูลต่างๆ</a>
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">รีวิว</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="link-secondary" href="#" aria-label="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+            </a>
+            <a class="btn btn-sm btn-outline-secondary" href="#">ค้นหา</a>
+          </div>
+        </div>
+      </header>
+    
+      <!-- <div class="nav-scroller py-1 mb-3 border-bottom">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis active" href="#">World</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">U.S.</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Technology</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Design</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Culture</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Opinion</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Science</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Style</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Travel</a>
+        </nav>
+      </div>
+    </div> -->
+    
+    <main class="container">
+      <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div class="col-lg-6 px-0">
+          <h1 class="display-4 fst-italic">ถูกใจ</h1>
+          <p class="lead my-3">คุณสามารถเเสดงความคิดเห็น</p>
+          <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">เเสดงความคิดเห็น</a></p>
+        </div>
+      </div>
+    
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary-emphasis">รีวิว</strong>
+              <h3 class="mb-0">5 ดาว  4.9 ดาว</h3>
+              <div class="mb-1 text-body-secondary">เกมต่อสู้ เกมผจญภัย เกมออนไลน์แบบผู้เล่นจำนวนมาก</div>
+              <p class="card-text mb-auto">1536 ดาว</p>
+              <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                เเสดงความคิดเห็น
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="potor2/45424224.jpg" class="d-block w-100" alt="..." height="200px">
+              <i class="bi bi-emoji-heart-eyes"></i>
+              <i class="bi bi-emoji-heart-eyes"></i>
+              <i class="bi bi-emoji-heart-eyes"></i>
+              <i class="bi bi-emoji-heart-eyes"></i>
+              <i class="bi bi-emoji-heart-eyes"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success-emphasis">เเชท</strong>
+              <h3 class="mb-0">3.6 ดาว - 2.5 ดาว</h3>
+              <div class="mb-1 text-body-secondary">เกมออนไลน์ผู้เล่นจำนวนมากแบบเล่นตามบทบาท เกมเอาตัวรอด เกมลอบเร้น</div>
+              <p class="mb-auto">1693 เเชท</p>
+              <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                เเสดงความคิดเห็น
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="potor2/10.jpg" class="d-block w-100" alt="..." height="200px">
+              <i class="bi bi-chat-right-text"></i>
+              <i class="bi bi-chat-right-text"></i>
+              <i class="bi bi-chat-right-text"></i>
+              <i class="bi bi-chat-right-text"></i>
+              <i class="bi bi-chat-right-text"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="row g-5">
+        <div class="col-md-8">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">
+            ข้อมูลเว็บ
+          </h3>
+    
+          <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">รายการข้อมูลต่างๆ</h2>
+            <p class="blog-post-meta">ดูข้อมูลเพิ่มเติมติดต่อเเอดมิน <a href="#">facebook</a></p>
+    
+            <p>ข้อมูลเกม</p>
+            <hr>
+            <p>เป็นอุปกรณ์เกมสมัยใหม่ที่ใช้เครื่องไฟฟ้าอิเล็กทรอนิกส์เข้ามาเป็นอุปกรณ์หลักในการเล่น โดยจะมีความสามารถในการเปลี่ยนเกมจากเกมหนึ่งไปอีกเกมหนึ่งได้ สามารถเล่นเกมได้ตามเว็บไซด์ต่างๆ ด้วยอุปกรณ์ใดๆ ที่สร้างขึ้นเพื่อเครื่องเกมนั้นๆ ซึ่งสร้างความหลากหลาย และความสมจริงได้ใกล้เคียงกับความเป็นจริง โดยอาจแบ่งได้โดยตามคุณลักษณะเด่น ดังนี้</p>
+            <h2>เกมแอคชั่น</h2>
+            <p>เกมแอคชั่น (Action Game) เป็นประเภทเกมที่ใช้การบังคับทิศทางและการกระทำของตัวละครในเกมเพื่อผ่านด่านต่าง ๆ ไปให้ได้ มีตั้งแต่เกมที่มีรูปแบบง่าย ๆ เหมาะกับคนทุกเพศทุกวัย เช่น มาริโอ ร็อคแมน ไปจนถึงเกมแอ็กชันที่มีเนื้อหารุนแรงไม่เหมาะกับเด็ก ๆ บางเกมมีการใส่ลูกเล่นต่าง ๆ เข้ามาเพิ่มความสนุกของเกมจนกลายเป็นเกมแนวใหม่ไปเลยเช่น War Thunder
+
+              เกมยิงมุมมองบุคคลที่หนึ่ง (First Person Shooter) เป็นเกมแอ็กชันที่ให้ผู้เล่นสวมบทบาทผ่านมุมมองจากสายตาตัวละครตัวหนึ่ง แล้วต่อสู้ผ่านด่านต่าง ๆ ไปจุดเด่นของเกมประเภทนี้คือเหตุการณ์ทุก ๆ อย่างจะผ่านสายตาของผู้เล่นทั้งหมด ผู้เล่นจะไม่เห็นตัวเอง เกมประเภทนี้มักจะเน้นแอ็กชันซึ่ง ๆ หน้า และเน้นที่อารมณ์ของตัวผู้เล่นและความรู้สึกสมจริง ทำให้เกมประเภทนี้มักจะเป็นเกมที่มีความรุนแรงสูง เกมที่ได้ทำให้แนวเกมนี้กำเนีดขึ้นมาและโด่งดังคือเกม ดูม (Doom) เกมประเภทนี้ที่ได้รับความนิยมได้แก่ Half-Life, Doom, Crysis, Battlefield, Brother in Arms, Call of Duty
+              เกมยิงมุมมองบุคคลที่สาม (Third Person Shooter) เป็นเกมแอ็กชันลักษณะคล้าย ๆ กับ First Person Shooter แต่จะต่างตรงที่เกมประเภทนี้ผู้เล่นจะได้มุมมองจากด้านหลังของตัวละครแทนหรือบางเกมก็สามารกหมุนมุมกล้องได้ เกมประเภทนี้มักจะเน้นการเคลื่อนไหวเป็นสำคัญ เพราะผู้เล่นมองเห็นตัวละครที่ควบคุม และเกมประเภทนี้มักจะมีปริศนาในเกมสอดแทรกเป็นระยะ ๆ เช่น ปริศนาดันลังหรือปริศนาประเภทกระโดดข้าม (หรืออาจจะไม่มีขึ้นอยู่กับลักษณะของเกม) เกมประเภทนี้ที่ได้รับความนิยมได้แก่ Grand Theft Auto, Tomb Rider, Hitman, Splinter Cell, Saint Row
+              เกมแพลตฟอร์ม (Platformer) เป็นเกมแอ็กชันพื้นฐาน ที่วางฉากไว้บนพื้นที่ขนาดหนึ่ง และให้ผู้เล่นผ่านเกมไปให้ได้ทีละด่าน ๆ โดยส่วนมากมักจะเน้นให้ผู้เล่นกระโดดข้ามฝั่งจากฝั่งหนึ่งไปอีกฝั่งหนึ่ง มักจะเป็นเกมแบบ2 มิติและมีการควบคุมแค่เดินซ้ายกับขวา เกมประเภทนี้ที่ได้รับความนิยมได้แก่ Kirby, Contar, Metal Slug
+              Stealth-based game คือเกมแอ็กชันที่ไม่เน้นการบุกตะลุย แต่ใช้การหลอกล่อฝ่ายศัตรูเพื่อผ่านอุปสรรคไปให้ได้หรือการลอบเร้น เกมประเภทนี้โดยส่วนมากผู้เล่นต้องมีความอดทนสูงพอและต้องสามารถอ่านการเคลื่อนไหวของศัตรูได้ เกมประเภทนี้ตัวละครเอกมักจะไม่แข็งแกร่งเหมือนเกมแบบ First Person Shooter และไม่มีอาวุธยุโธปกรณ์มากพอใช้ต่อสู้ได้ แต่อย่างไรก็ดีเกมหลาย ๆ เกมได้นำคุณลักษณะของ Stealth-based game ไปเสริมในเกมก็มี เกมประเภทนี้ที่ได้รับความนิยมได้แก่ Tenchu, Metal Gear Solid, Splinter Cell
+              Action Adventure Game เป็นลักษณะเกมแอ็กชันที่มีการผสานการไขปริศนาและการรวบรวมสิ่งของเหมือนเกมผจญภัย เกมบางเกมยังผสมลักษณะของอาร์พีจีลงไปด้วย เกมประเภทนี้ยังแตกแขนงเป็น Survival/Horror ซึ่งจะสมมติสถานการณ์สยองขวัญขึ้นมาเพื่อให้ผู้เล่นเอาชีวิตรอดไปให้ได้หรือไม่ก็ตาย เกมประเภทนี้ที่ได้รับความนิยมได้แก่ เรซิเดนต์อีวิล, ICO, แชโดว์ออฟเดอะโคลอสซัส,minecraft</p>
+            <blockquote class="blockquote">
+             <h2>เกมผจญภัย</h2>
+            </blockquote>
+            <p>เกมผจญภัย (Adventure Game) เป็นเกมที่ผู้เล่นจะสวมบทบาทเป็นตัวละครตัวหนึ่งและต้องกระทำเป้าหมายในเกมให้สำเร็จลุล่วงไปได้ เกมผจญภัยนั้นถูกสร้างครั้งแรกในรูปแบบของ Text Based Adventure จนกลายมาเป็นแบบ Graphic Adventure เกมผจญภัยจะเน้นหนักให้ผู้เล่นหาทางออกหรือไขปริศนาในเกม โดยส่วนมากปริศนาในเกมจะเน้นใช้ตรรกะแก้ปัญหาและใช้สิ่งของที่ผู้เล่นเก็บมาระหว่างผจญภัย นอกจากนั้นผู้เล่นยังคงต้องพูดคุยกับตัวละครตัวอื่น ๆ ทำให้เกมประเภทนี้ผู้เล่นต้องชำนาญด้านภาษามาก ๆ เกมผจญภัยส่วนมากมักจะไม่มีการตายเพื่อให้ผู้เล่นได้มีเวลาวิเคราะห์ปัญหาข้างหน้าได้ หรือถ้ามีการตายในเกมผจญภัยมักจะถูกวางไว้แล้วว่าผู้เล่นจะตายตรงไหนได้บ้าง เกมผจญภัยมีรูปแบบต่าง ๆ ดังนี้
+
+              Text Based Adventure เป็นเกมผจญภัยที่ใช้พื้นฐานของการพิมพ์เป็นสำคัญ โดยเมื่อผู้เล่นต้องการทำอะไรก็ต้องพิมพ์เพื่อให้ตัวละครในเกมกระทำตาม (เช่นพิมพ์ Talk เมื่อต้องการคุย พิมพ์ Look เมื่อต้องการมอง) แต่หลังจากที่คอมพิวเตอร์ก้าวสู้ยุคของเมาส์ เกมผจญภัยประเภทพิมพ์ก็หมดความนิยมลง เกมประเภทนี้ที่ได้รับความนิยมได้แก่ Zork
+              Graphical Adventure หรือ Point 'n Click Adventure เป็นเกมผจญภัยที่ใช้รูปภาพหรือตัวคนจริง ๆ มาแสดงในหน้าจอให้ผู้เล่นได้ใช้สายตาในการมองหาวัตถุรอบข้าง เกมประเภทผู้เล่นมักจะต้องกระทำสิ่งที่เรียกว่า Pixel Hunting หรือก็คือการเลื่อนเมาส์ไปทั่วหน้าจอเพื่อหาจุดผิดปกติหรือสิ่งของภายในเกม ในปัจจุบันเกมผจญภัยประเภทนี้ใช้เรียกเกมผจญภัยในปัจจุบันทุกเกม
+              Puzzle Adventure เป็นเกมผจญภัยที่เน้นการไขปริศนาในเกม โดยจะตัดทอนรายละเอียดเช่นการเก็บของหรือการคุยกับบุคคลอื่นลงไป เกมประเภทนี้ที่ได้รับความนิยมได้แก่ Myst</p>
+            <h2>เกมเล่นตามบทบาท</h2>
+            <p>เกมเล่นตามบทบาท (Role-Playing Game) หรือ อาร์พีจี (RPG) หรือที่นิยมเรียกกันว่าเกมภาษา เป็นเกมที่พัฒนามาจากเกมสวมบทบาทแบบตั้งโต๊ะ เนื่องจากในช่วงแรกเกมอาร์พีจีที่ออกมาจะเป็นภาษาอังกฤษหรือญี่ปุ่นซึ่งต้องใช้ความรู้ด้านภาษานั้น ๆ ในการเล่น เกมประเภทนี้จะกำหนดตัวผู้เล่นอยู่ในโลกที่สมมติขึ้น และให้ผู้เล่นสวมบทบาทเป็นตัวละครหนึ่งในโลกนั้น ๆ ผจญภัยไปตามเนื้อเรื่องที่กำหนด โดยมีจุดเด่นทางด้านการพัฒนาระดับของตัวละคร (Experience-ประสบการณ์) เก็บเงินซื้ออาวุธ, อุปกรณ์ เมื่อผจญภัยไปมากขึ้นและเอาชนะศัตรูตัวร้ายที่สุดในเกม ตัวเกมไม่เน้นการบังคับหวือหวา แต่จะให้ผู้เล่นสัมผัสกับเรื่องราวแทน เกม RPG จะถูกแบ่งออกเป็นสองลักษณะใหญ่ ๆ คือ
+
+              Computer RPG เป็นเกมอาร์พีจีบนเครื่องคอมพิวเตอร์ จุดเด่นของเกมประเภทนี้มักจะไม่เน้นที่เรื่องราว แต่จะเน้นที่การให้ผู้เล่นสร้างตัวละครอย่างเสรีแล้วออกไปผจญภัยในโลกของเกม เกมอาร์พีจีบนคอมพิวเตอร์มักจะเป็นอาร์พีจีของประเทศในแถบตะวันตก เกมประเภทนี้จะมีคุณค่าในการเล่นซ้ำที่สูงมาก เพราะผู้เล่นสามารถนำกลับมาเล่นและเปลี่ยนลักษณะของตัวละครได้ตามใจชอบ เกมประเภทนี้ที่ได้รับความนิยมได้แก่ Diablo, The Elder Scrolls, Titan Quest
+              Console RPG เป็นเกมอาร์พีจีบนเครื่องคอนโซล จุดเด่นของเกมประเภทนี้อยู่ที่เรื่องราวทั้งหลาย เกมประเภทนี้มักจะมีตัวละครที่สร้างไว้อยู่แล้วและให้ผู้เล่นเข้าไปควบคุมตัวละครตัวนั้น เกมประเภทนี้มักจะเน้นเรื่องราวที่ตายตัวแต่จะเป็นเรื่องราวที่ลึกซึ้ง เกมประเภทนี้ส่วนมากจะเป็นเกมฝั่งตะวันออกซะส่วนใหญ่ เกมประเภทนี้ที่ได้รับความนิยมได้แก่ ไฟนอลแฟนตาซี, ดราก้อนเควสต์, คิงดอมฮารตส์, โรแมนซิ่ง ซา-ก้า
+              นอกจากนั้นเกมเล่นตามบทบาททั้งบนคอมพิวเตอร์และคอนโซลยังแบ่งย่อยออกได้อีกเป็น
+              
+              Action RPG คือเกมอาร์พีจีที่เพิ่มส่วนของการบังคับแบบเกมแอ็กชันลงไป ซึ่งโดยส่วนมากเกมประเภทนี้จะเป็นเกมอาร์พีจีที่มีส่วนผสมของแอ็กชัน (ไม่ใช่เกมแอ็กชันที่ผสมอาร์พีจี) เพราะส่วนมากเกมประเภทนี้ผู้เล่นต้องเก็บค่าประสบการณ์, เลเวล, อาวุธและชุดเกราะ เกมประเภทนี้ที่ได้รับความนิยมได้แก่ ไซเคน เดนเสทสึ
+              Simulation RPG คือเกมอาร์พีจีที่มีการเล่นในแบบของการวางแผนการรบ โดยส่วนมากมักจะเป็นเกมวางแผนปกติแต่จะเน้นในส่วนของการเก็บค่าประสบการณ์, เลเวล และบางเกมยังมีการซื้อขายของแบบเกม RPG โดยส่วนมากเกมประเภทนี้มักจะเป็นเกมผลัดกันเดิน แต่จะต่างจากเกม Turn-Based Stategy ตรงที่เกมประเภทนี้จะมีปริมาณยูนิตในสนามรบน้อยกว่า Turn-Based Strategy และตัวละครสามารถติดตั้งอาวุธแบบเกมอาร์พีจีทั่ว ๆ ไปได้ เกมประเภทนี้มีอีกชื่อหนึ่งว่า Tactical Role-playing Game เกมประเภทนี้ที่ได้รับความนิยมได้แก่ ซูเปอร์โรบ็อตไทเซ็น, ซากุระไทเซ็น, ไฟนอลแฟนตาซี แทกติกส์, Tactics Ogre, ไฟร์เอมเบลม</p>
+           
+                <tr>
+                  <th>Name</th>
+                  <th>Upvotes</th>
+                  <th>Downvotes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Alice</td>
+                  <td>10</td>
+                  <td>11</td>
+                </tr>
+                <tr>
+                  <td>Bob</td>
+                  <td>4</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>Charlie</td>
+                  <td>7</td>
+                  <td>9</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>Totals</td>
+                  <td>21</td>
+                  <td>23</td>
+                </tr>
+              </tfoot>
+            </table>
+    
+            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+          </article>
+    
+          <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">ข่าวสารใหม่</h2>
+            <p class="blog-post-meta">ที่กำลังจะวางจำหน่าย <a href="#">Chris</a></p>
+    
+            <p>เกมเเนวใหม่รอติดตาม</p>
+            <ul>
+              <li>ทำเพื่อการศึกษาเท่านั้น</li>
+              <li>จำลองการสร้างเว็บขายของ</li>
+              <li>ขอบคุณที่รับชม</li>
+            </ul>
+            <p>เว็บนี้สรางมาเพื่อการศึกษาไม่ได้ต้องการสร้างผลประโยชน์เเต่อย่างไรขอขอบคูณครับเเล้วขออนุญาต</p>
+          </article>
+    
+          <nav class="blog-pagination" aria-label="Pagination">
+            <a class="btn btn-outline-primary rounded-pill" href="#">ข่าว</a>
+            <a class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">ติดตาม</a>
+          </nav>
+    
+        </div>
+    
+        <div class="col-md-4">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="p-4 mb-3 bg-body-tertiary rounded">
+              <h4 class="fst-italic">เกมกำลังจะเข้า</h4>
+              <p class="mb-0">เกมมาเเรง</p>
+            </div>
+    
+            <div>
+              <h4 class="fst-italic">เกมยอดฮิต</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <img src="potor2/11155.jpg" class="d-block w-100" alt="..." height="230px">
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">Black Myth Wukong</h6>
+                      <small class="text-body-secondary">19 สิงหาคม 2567</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <img src="potor2/646456456.jpg" class="d-block w-100" alt="..." height="230px">
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">7 Days to Die</h6>
+                      <small class="text-body-secondary">13 ธันวาคม 2556</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <img src="potor2/616x353.jpg" class="d-block w-100" alt="..." height="230px">
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">Subnautica</h6>
+                      <small class="text-body-secondary">16 ธันวาคม 2557</small>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="p-4">
+              <h4 class="fst-italic">เกม</h4>
+              <ol class="list-unstyled mb-0">
+                <li><a href="#">เกมต่อสู้</a></li>
+                <li><a href="#">เกมจำลองสถานการณ์</a></li>
+                <li><a href="#">เกมยิง</a></li>
+                <li><a href="#">เกมเหมาะกับคนทุกเพศทุกวัย</a></li>
+                <li><a href="#">เกมผจญภัย</a></li>
+                <li><a href="#">เกมเล่นเพลิน</a></li>
+                <li><a href="#">เกมสยองขวัญ</a></li>
+                <li><a href="#">เกมออนไลน์</a></li>
+                <li><a href="#">เกมยิงเชิงกลยุทธ์</a></li>
+                <li><a href="#">เกมยิงมุมมองบุคคลที่หนึ่ง</a></li>
+                <li><a href="#">เกมตลก</a></li>
+                <li><a href="#">เกม18+</a></li>
+              </ol>
+            </div>
+    
+            <div class="p-4">
+              <h4 class="fst-italic">ติอต่อ</h4>
+              <ol class="list-unstyled">
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </main>
+    
+   <!-- ส่วนท้าย -->
+   <div class="container">
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">หน้าแรก</a></li>
+                  <li class="nav-item"><a href="Product .html" class="nav-link px-2 text-body-secondary">รายการสินค้า</a></li>
+                  <li class="nav-item"><a href="Reviw.html" class="nav-link px-2 text-body-secondary">รีวิวสินค้า</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">เเจ้งปัญหา</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">ติดต่อเเอดมิน</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© nongnon happy mak mak</p>
+    </footer>
+  </div>
+  <script>
+    AOS.init();
+  </script>
+
+    </body>
+  </html>
+      
